@@ -14,14 +14,16 @@
 
 var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
 
-
-
+var nothof = hof.pop();
+console.log(hof);
+console.log(nothof);
 /* The array.push() adds one or more element to the end of an array and returns the new length of the array*/
 
 /*2. You've been tasked to do this week's grocery shopping. As you arrive at Times Supermarket, Kanye pings you to get a bottle of Hendricks gin. Add this to the existing shoppingList and console.log it.*/
 
 var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut butter oreos", "fruit loops cereal"];
-
+shoppingList.push("Hendricks gin");
+console.log(shoppingList);
 
 
 
@@ -30,7 +32,8 @@ var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut 
 /*3. Use the force, or in this case the reverse method to help Yoda make some sense with his motivational talk to the young Jedi interns.*/
 
 var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
-
+yoda.reverse();
+console.log(yoda);
 
 
 /*The array.shift() removes the first element from an array and returns that element*/
@@ -38,6 +41,9 @@ var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
 /*4. People been lining up for hours to get the newest iphone release. Help manage the unruly crowd of privileged customers by serving them one at a time and assiging it to a variable named `nowServing`. Console.log this new variable as well as the waitList.*/
 
 var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
+var nowServing = waitList.shift();
+console.log(waitList);
+console.log(nowServing);
 
 
 
